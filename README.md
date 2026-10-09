@@ -1,21 +1,20 @@
-## Hi, I'm Noah
+## Hi, I'm Noah 👋
 
-5th-semester Computer Science student at Universität Osnabrück. I mostly work on computer vision and backend projects, and I run my own small server setup at home.
+CS student (5th semester) at Universität Osnabrück. I build computer vision benchmarks and backend services, and I run the servers they live on myself.
 
-🔭 **Open to working-student positions and collaborations** in computer vision / ML or backend & infrastructure.
+🔭 **Open to working-student positions** in computer vision / ML or backend & infrastructure.
 
 ### Featured projects
 
-**[Visual Place Recognition](https://github.com/nbomers/VisualPlaceRecognition)**: one street photo in, one location out.
-Leakage-free benchmark of 5 pretrained encoders on 330k+ Mapillary images across 6 German cities, with sequence-level bootstrap confidence intervals and 39 paired comparisons. Along the way we found and quantified a duplicate-upload issue in Mapillary that inflates recall by up to 11 points. *(team project, 3 people)*
-
-**[Filmabend](https://github.com/nbomers/filmabend)**: movie-night voting app for friend groups. Propose films, vote in rounds with deadlines, swipe through candidates. FastAPI · SQLAlchemy/SQLite · JWT auth · vanilla JS · TMDB API. Self-hosted, with tests and CI.
-
-**schnappr**: watches classifieds searches, lets a local LLM judge every new listing and only sends the real deals to Telegram. *(work in progress)*
+| Project | What it is | Stack |
+|---|---|---|
+| **[Visual Place Recognition](https://github.com/nbomers/VisualPlaceRecognition)** | One street photo in, one location out. Leakage-free benchmark of 5 pretrained encoders on 330k+ Mapillary images across 6 German cities, with bootstrap confidence intervals and 39 paired comparisons. We found a duplicate-upload issue in Mapillary that inflates recall by up to 11 points. *(team of 3)* | Python · PyTorch · FAISS |
+| **[movienight](https://github.com/nbomers/movienight)** | Movie-night voting app for friend groups: propose films, vote in rounds with deadlines, swipe through candidates. Invite-only accounts, tests and CI, running on my own server. | FastAPI · SQLite · vanilla JS · TMDB |
+| **schnappr** *(in progress)* | Watches classifieds searches and sends only the real deals to Telegram. Prices and scores are computed in code; a local LLM only flags what rules can't see. | Python · local LLM · Telegram |
 
 ### Homelab
 
-I run a Proxmox server at home with VMs and LXC containers for:
+A Proxmox server at home with VMs and LXC containers for:
 
 - Home Assistant with Zigbee devices
 - Document automation: Paperless-ngx + n8n + a local LLM via Ollama
